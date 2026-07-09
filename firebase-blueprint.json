@@ -1,0 +1,20 @@
+{
+  "entities": {
+    "Score": {
+      "title": "Score",
+      "description": "A score entry in the leaderboard",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "The player's name" },
+        "score": { "type": "number", "description": "The score achieved" }
+      },
+      "required": ["name", "score"]
+    }
+  },
+  "firestore": {
+    "/scores/{scoreId}": {
+      "schema": "Score",
+      "description": "Leaderboard scores"
+    }
+  }
+}
