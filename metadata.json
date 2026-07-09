@@ -1,0 +1,6 @@
+{
+  "name": "打地鼠：九九乘法大挑戰",
+  "description": "一個刺激的打地鼠九九乘法數學遊戲。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
